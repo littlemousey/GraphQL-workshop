@@ -1,0 +1,9 @@
+// example of mutations in an external file, is not used in the project
+
+mutation {
+  newTodo(input: { name: "test", type: reminder }) {
+    name
+    type
+    done
+  }
+}
